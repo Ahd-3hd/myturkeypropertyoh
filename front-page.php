@@ -11,8 +11,9 @@
 </head>
 
 <body>
-  <header>
+  <header class="front_page-header">
     <nav class="front_page-nav">
+
       <div class="top-navbar">
         <div class="localization">
           <select class="form-control form-control-sm">
