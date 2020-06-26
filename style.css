@@ -11,6 +11,11 @@ body {
   font-size: 16px;
 }
 
+.front_page-nav {
+  position: fixed;
+  width: 100%;
+}
+
 .top-navbar {
   display: flex;
   justify-content: space-between;
