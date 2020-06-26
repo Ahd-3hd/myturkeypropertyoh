@@ -29,8 +29,17 @@
         </div>
       </div>
       <div class="bottom-navbar">
-        <img class="navbar_logo" src="<?php echo get_template_directory_uri()?>/img/logo.png"
-          alt="My Turkey Property" />
+        <a href="#" class="navbar_logo">
+          <img src="<?php echo get_template_directory_uri()?>/img/logo.png" alt="My Turkey Property" />
+        </a>
+
+        <ul class="bottom_navbar-menu">
+          <li><a href="#">Home</a></li>
+          <li class="hasChildren"><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+        </ul>
       </div>
     </nav>
   </header>

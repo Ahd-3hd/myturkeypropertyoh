@@ -32,6 +32,43 @@ body {
   color: #ffffff;
 }
 
+.bottom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
 .navbar_logo {
+  flex: 1;
+}
+.navbar_logo img {
   max-width: 100px;
+}
+.bottom_navbar-menu {
+  flex: 3;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom_navbar-menu li a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 0.9rem;
+}
+
+.bottom_navbar-menu li {
+  position: relative;
+}
+
+.bottom_navbar-menu .hasChildren::after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  position: absolute;
+  padding-left: 0.3rem;
+  padding-top: 0.1rem;
+  color: #555555;
 }
