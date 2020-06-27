@@ -237,4 +237,74 @@
     </section>
   </div>
 
+  <section class="featured-properties">
+    <h3>Featured Properties</h3>
+    <div class="featured-properties-container">
+      <a href="#" class="property-card">
+        <div class="property-media">
+          <img src="<?php echo get_template_directory_uri()?>/img/featured.jpg" alt="property" />
+        </div>
+        <div class="property-details">
+          <p class="property-price">price: 123123</p>
+          <p class="property-location"><i class="fas fa-map-marker-alt"></i> Istanbul</p>
+          <p class="property-description">sdfs dfs dfsdf sdf sdf sdrgf </p>
+        </div>
+        <div class="property-icons">
+          <p><i class="fas fa-ruler-vertical" aria-hidden="true"></i> 123 ft sq</p>
+          <p><i class="fas fa-bed" aria-hidden="true"></i> 2</p>
+          <p><i class="fas fa-bath" aria-hidden="true"></i> 1</p>
+          <p><i class="fas fa-home" aria-hidden="true"></i> Villa</p>
+        </div>
+      </a>
+      <a href="#" class="property-card">
+        <div class="property-media">
+          <img src="<?php echo get_template_directory_uri()?>/img/featured.jpg" alt="property" />
+        </div>
+        <div class="property-details">
+          <p class="property-price">price: 123123</p>
+          <p class="property-location"><i class="fas fa-map-marker-alt"></i> Istanbul</p>
+          <p class="property-description">sdfs dfs dfsdf sdf sdf sdrgf </p>
+        </div>
+        <div class="property-icons">
+          <p><i class="fas fa-ruler-vertical" aria-hidden="true"></i> 123 ft sq</p>
+          <p><i class="fas fa-bed" aria-hidden="true"></i> 2</p>
+          <p><i class="fas fa-bath" aria-hidden="true"></i> 1</p>
+          <p><i class="fas fa-home" aria-hidden="true"></i> Villa</p>
+        </div>
+      </a>
+      <a href="#" class="property-card">
+        <div class="property-media">
+          <img src="<?php echo get_template_directory_uri()?>/img/featured.jpg" alt="property" />
+        </div>
+        <div class="property-details">
+          <p class="property-price">price: 123123</p>
+          <p class="property-location"><i class="fas fa-map-marker-alt"></i> Istanbul</p>
+          <p class="property-description">sdfs dfs dfsdf sdf sdf sdrgf </p>
+        </div>
+        <div class="property-icons">
+          <p><i class="fas fa-ruler-vertical" aria-hidden="true"></i> 123 ft sq</p>
+          <p><i class="fas fa-bed" aria-hidden="true"></i> 2</p>
+          <p><i class="fas fa-bath" aria-hidden="true"></i> 1</p>
+          <p><i class="fas fa-home" aria-hidden="true"></i> Villa</p>
+        </div>
+      </a>
+      <a href="#" class="property-card">
+        <div class="property-media">
+          <img src="<?php echo get_template_directory_uri()?>/img/featured.jpg" alt="property" />
+        </div>
+        <div class="property-details">
+          <p class="property-price">price: 123123</p>
+          <p class="property-location"><i class="fas fa-map-marker-alt"></i> Istanbul</p>
+          <p class="property-description">sdfs dfs dfsdf sdf sdf sdrgf </p>
+        </div>
+        <div class="property-icons">
+          <p><i class="fas fa-ruler-vertical" aria-hidden="true"></i> 123 ft sq</p>
+          <p><i class="fas fa-bed" aria-hidden="true"></i> 2</p>
+          <p><i class="fas fa-bath" aria-hidden="true"></i> 1</p>
+          <p><i class="fas fa-home" aria-hidden="true"></i> Villa</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
   <?php get_footer();?>
