@@ -307,4 +307,51 @@
     </div>
   </section>
 
+  <section class="news-section">
+    <h3>Latest News</h3>
+    <div class="news-card-container">
+      <div class="news-card" href="#">
+        <div class="news-card-media">
+          <img src="<?php echo get_template_directory_uri()?>/img/featured.jpg" alt="news" />
+        </div>
+        <div class="news-details">
+          <p class="news-title">this is the title</p>
+          <p class="news-time"><i class="fa fa-clock" aria-hidden="true"></i> January 26, 2020</p>
+          <p class="news-short-text">Beautiful beach in the center of Side, Turkey If you want to invest and earn good
+            money in the long run, real estate is the best domain to focus on
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+
+      <div class="news-card" href="#">
+        <div class="news-card-media">
+          <img src="<?php echo get_template_directory_uri()?>/img/featured.jpg" alt="news" />
+        </div>
+        <div class="news-details">
+          <p class="news-title">this is the title</p>
+          <p class="news-time">January 26, 2020</p>
+          <p class="news-short-text">Beautiful beach in the center of Side, Turkey If you want to invest and earn good
+            money in the long run, real estate is the best domain to focus on
+          </p>
+          <a href="#" class="news-link">Read More</a>
+        </div>
+      </div>
+
+      <div class="news-card" href="#">
+        <div class="news-card-media">
+          <img src="<?php echo get_template_directory_uri()?>/img/featured.jpg" alt="news" />
+        </div>
+        <div class="news-details">
+          <p class="news-title">this is the title</p>
+          <p class="news-time">January 26, 2020</p>
+          <p class="news-short-text">Beautiful beach in the center of Side, Turkey If you want to invest and earn good
+            money in the long run, real estate is the best domain to focus on
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <?php get_footer();?>
