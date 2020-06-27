@@ -41,6 +41,17 @@
           <li><a href="#">Link 3</a></li>
           <li><a href="#">Link 4</a></li>
         </ul>
+        <ul class="bottom_navbar-menu-mobile">
+          <li><a href="#">Home</a></li>
+          <li class="hasChildren"><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+          <button id="menu-button-close"><i class="fa fa-bars"></i></button>
+
+        </ul>
+        <button id="menu-button"><i class="fa fa-bars"></i></button>
+
       </div>
     </nav>
     <div class="front_page-header-content">

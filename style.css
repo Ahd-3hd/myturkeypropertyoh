@@ -34,7 +34,8 @@ body {
 
 .bottom-navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 0.5rem;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   background: #ffffff;
@@ -81,7 +82,7 @@ body {
 }
 
 .front_page-header {
-  height: 100vh;
+  min-height: 100vh;
   background: url("./img/newheader.jpg");
   position: relative;
   display: flex;
@@ -117,13 +118,15 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bolder;
+  text-align: center;
 }
 
 .front_page-header-content form {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   column-gap: 0.5rem;
+  row-gap: 0.5rem;
   align-items: end;
   justify-items: center;
   background: #ffffff;
@@ -144,7 +147,63 @@ body {
   color: #555555;
   font-size: 0.85rem;
   font-weight: 500;
+  margin: 0;
 }
 .front_page-header-content form .input-group .form-control {
   width: 100%;
+}
+.bottom_navbar-menu-mobile {
+  display: none;
+}
+#menu-button {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .bottom_navbar-menu {
+    display: none;
+  }
+  .bottom_navbar-menu-mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #3e63ca;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left: -150%;
+    transition: 0.4s;
+  }
+  .bottom_navbar-menu-mobile li a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #menu-button {
+    display: block;
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: #555555;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  #menu-button-close {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1.5rem;
+  }
 }

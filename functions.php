@@ -10,7 +10,7 @@ add_action('wp_enqueue_scripts','load_styles');
 
 function load_scripts(){
   wp_enqueue_script( 'bootstrap','https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', array( 'jquery' ) );
-  wp_enqueue_script( 'myscript',get_template_directory_uri() . '/js/script.js', array( 'jquery' ) );
+  wp_enqueue_script( 'myscript',get_template_directory_uri() . '/js/script.js', array( 'jquery' ),false,true );
 
 
 }
