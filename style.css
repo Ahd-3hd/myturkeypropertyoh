@@ -40,19 +40,16 @@ body {
   background: #ffffff;
 }
 
-.navbar_logo {
-  flex: 1;
-}
 .navbar_logo img {
   max-width: 100px;
 }
 .bottom_navbar-menu {
   flex: 2;
   display: flex;
-  justify-content: space-around;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  justify-content: space-evenly;
 }
 
 .bottom_navbar-menu li a {
