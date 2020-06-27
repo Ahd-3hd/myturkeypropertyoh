@@ -207,3 +207,45 @@ body {
     margin: 1.5rem;
   }
 }
+.services-container {
+  margin: 2rem 0;
+  text-align: center;
+  color: #555555;
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-items: center;
+  align-items: start;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.services > .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.box > svg {
+  fill: #3e63ca;
+  width: 100px;
+}
+.box > p {
+  margin: 0.5rem 0;
+}
+
+.box > .box-title {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  color: #3e63ca;
+}
+.box > .box-paragraph {
+  color: #555555;
+  font-weight: bold;
+  margin: 0;
+}
