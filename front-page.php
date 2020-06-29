@@ -373,7 +373,7 @@
         <div class="social-accounts">
           <p><i class="fab fa-facebook-f"></i> MyTurkeyProperty</p>
           <p><i class="fab fa-twitter"></i> @myturkeyproperty</p>
-          <p><i class="fab fa-pinterest-p"></i> myturkeyproperty<p>
+          <p><i class="fab fa-pinterest-p"></i> myturkeyproperty</p>
         </div>
       </div>
     </div>
