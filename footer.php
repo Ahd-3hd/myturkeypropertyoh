@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="bottom-footer">
-    <p>&copy; Copyright <span id="footer-year"></span> - My Turkey Property Ltd (12390883) - all rights reserved</p>
+    <p>&copy; Copyright <?php echo date('Y'); ?> - My Turkey Property Ltd (12390883) - all rights reserved</p>
 
   </div>
 </footer>
