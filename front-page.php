@@ -354,4 +354,33 @@
     </div>
   </section>
 
+  <section class="contact-us">
+    <div class="contact-text">
+      <h3>Get in Touch</h3>
+      <p>
+        We will help you with purchasing properties in Turkey. Get in touch and get your free consultation. Our
+        experienced staff will meet your demands and provide all the information and help needed for your quest.
+      </p>
+      <img src="<?php echo get_template_directory_uri()?>/img/logo.png" alt="news" />
+      <hr />
+      <div class="contact-information">
+        <div class="non-accounts">
+          <p><i class="fas fa-map-marker-alt"></i> UK-LONDON</p>
+          <p><i class="fas fa-at"></i> info@myturkeyproperty.com</p>
+          <p><i class="fas fa-phone"></i> +44 (0)203 974 2579</p>
+        </div>
+
+        <div class="social-accounts">
+          <p><i class="fab fa-facebook-f"></i> MyTurkeyProperty</p>
+          <p><i class="fab fa-twitter"></i> @myturkeyproperty</p>
+          <p><i class="fab fa-pinterest-p"></i> myturkeyproperty<p>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <?php echo do_shortcode('[contact-form-7 id="12" title="front page"]')?>
+    </div>
+  </section>
+
   <?php get_footer();?>

@@ -373,3 +373,118 @@ body {
   color: #3e63ca;
   font-weight: bolder;
 }
+
+.contact-us {
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  background: url("./img/contactbg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  color: #ffffff;
+}
+.contact-us::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #293357a9;
+  mix-blend-mode: multiply;
+}
+
+.contact-text {
+  flex: 1;
+  padding: 1rem;
+  z-index: 3;
+}
+
+.contact-information {
+  display: flex;
+  z-index: 3;
+
+  color: #ffffff;
+}
+
+.contact-text h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.contact-text > p {
+  width: 70%;
+}
+
+.contact-text img {
+  width: 100%;
+  max-width: 250px;
+  margin: 2rem 0;
+  margin-bottom: 1rem;
+}
+.non-accounts p i {
+  font-size: 1.5rem;
+  flex: 1;
+}
+.social-accounts p i {
+  font-size: 1.5rem;
+  flex: 1;
+}
+.non-accounts,
+.social-accounts {
+  margin: 0 2rem;
+}
+.form-container {
+  z-index: 3;
+
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+.form-container > div {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(37, 37, 37, 0.33);
+  border-radius: 10px;
+  padding: 2rem;
+}
+.wpcf7 input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  min-height: 2rem;
+}
+.form-container label {
+  font-weight: bold;
+  color: #333333;
+  background: #ffffff;
+}
+
+.wpcf7 input[type="submit"] {
+  width: 100px;
+  background-color: #3e63ca;
+  color: #ffffff;
+  font-weight: bolder;
+  border: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-us {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-text p {
+    width: 100%;
+  }
+  .contact-information {
+    flex-direction: column;
+  }
+}
