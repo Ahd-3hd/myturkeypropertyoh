@@ -544,3 +544,28 @@ footer {
   margin: 0;
   color: #ffffff;
 }
+
+.nav-search-form {
+  background: #3e63ca;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-search-form form {
+  display: flex;
+}
+
+.nav-search-form form .input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 0.2rem;
+}
+.nav-search-form form .input-group label {
+  margin: 0;
+}
+.nav-search-form form .input-group .form-control {
+  width: 100%;
+}
